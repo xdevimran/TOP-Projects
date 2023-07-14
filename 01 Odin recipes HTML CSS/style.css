@@ -1,0 +1,86 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+  border: 5px solid greenyellow;
+  background: #000;
+}
+h1,
+button {
+  background: rgb(125, 218, 18);
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: rgb(252, 255, 255);
+}
+
+.home-img {
+  width: 250px;
+  height: 200px;
+  border: 5px solid yellow;
+}
+
+.page-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid gray;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.page-link:hover {
+  background: yellow;
+  color: red;
+}
+button {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid gray;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background: yellow;
+  color: red;
+}
+
+.artical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+  border: 5px solid greenyellow;
+  background: #000;
+  color: #ffffff;
+}
+
+li {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid gray;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  background: yellow;
+  color: red;
+  cursor: pointer;
+}
