@@ -32,7 +32,7 @@ for (let button of buttons) {
     const youChoose = document.getElementById("youChoose");
     constcomputerChoose = document.getElementById("computerChoose");
     youChoose.innerText = button.innerText;
-    constcomputerChoose.innerText = player2.innerText;
+    constcomputerChoose.innerText = player2;
     const whoWin = document.getElementById("whoWin");
     whoWin.innerText = result;
   });
