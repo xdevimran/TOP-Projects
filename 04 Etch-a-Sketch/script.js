@@ -3,7 +3,7 @@ const boxContainer = document.getElementById("box-container");
 function createBox() {
   const box = document.createElement("div");
   box.className = "box";
-  box.style.background = "cyan";
+  box.style.background = "rgb(8 145 178)";
   boxContainer.appendChild(box);
 
   box.addEventListener("mouseover", () => {
@@ -15,7 +15,6 @@ const inputBox = document.getElementById("inputBox");
 const addBtn = document.getElementById("addBtn");
 addBtn.addEventListener("click", () => {
   const getInput = parseFloat(inputBox.value);
-
   for (let i = 0; i < getInput; i++) {
     createBox();
   }
